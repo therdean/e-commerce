@@ -5,9 +5,9 @@ header('Access-Control-Allow-Origin: *');
 header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
 
 $host = 'localhost';
-$username = 'id21132164_ecommerce';
-$password = 'eCommerce1!';
-$dbname = 'id21132164_ecommerce';
+$username = 'root';
+$password = '';
+$dbname = 'ecommerce';
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
